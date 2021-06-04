@@ -1,0 +1,48 @@
+<html>
+
+<head></head>
+
+<body>
+    <h1>To do list</h1>
+    <div class="todos" id="$todos"></div>
+    <input id="content" />
+    <button class="button" onclick="plus()">添加待办</button>
+    <div class="count">2021 / 6 / 4</div>
+</body>
+
+<style>
+    .todos {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .count {
+        color: black;
+    }
+
+    #number {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .button {
+        width: 100px;
+        height: 50px;
+    }
+</style>
+
+<script>
+    function plus() {
+        let div = document.getElementById("number");
+        let input = document.getElementById("content");
+        let todos = document.getElementById("$todos");
+        let inputContent = input.value;
+        let node = document.createElement("div");
+        node.innerText = inputContent;
+        todos.appendChild(node);
+        input.value = "";
+    }
+</script>
+
+</html>

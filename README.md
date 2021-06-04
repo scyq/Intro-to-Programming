@@ -30,3 +30,35 @@ MacOS
 
 git init (initialize)
 
+
+
+## 前后端
+
+前端 vs 后端
+
+收入： 前端 < 后端
+
+HTML + CSS + JavaScript + React (Vue)
+
+JavaScript -> TypeScript
+
+MDN
+
+Runoob
+
+W3school
+
+
+
+## JavaScript
+
+Node
+
+
+
+## C / C++
+
+《C Primer Plus》
+
+《C++ Primer》
+
