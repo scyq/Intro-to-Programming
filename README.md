@@ -54,6 +54,12 @@ W3school
 
 Node
 
+### 为什么需要Node？
+
+因为JavaScript设计在浏览器端运行，但是随着时间的发展，我们需要JavaScript在客户端上运行，能够访问本地的文件。
+
+Node就是那个可以让JavaScript运行在客户端的工具。
+
 
 
 ## C / C++
@@ -62,3 +68,14 @@ Node
 
 《C++ Primer》
 
+
+
+## JS语法糖
+
+箭头表达式
+
+
+
+
+
+对象 = 数据 + 函数
