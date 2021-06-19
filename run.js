@@ -1,10 +1,15 @@
 /**
  * To-do
  * 
+ * basic:
  * 1. three levels
  * 2. eat all coins to win
  * 3. touch red to die
  * 4. time record
+ * 
+ * bonus:
+ * 1. create pull request on GitHub
+ * 2. deploy on GitHub Page
  */
 
 
